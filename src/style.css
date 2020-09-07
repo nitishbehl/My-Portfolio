@@ -58,10 +58,7 @@ img {
     transition: .3s ease ;
     transition-property: background-color,color;
 }
- .cta:hover{
-    color:white;
-    background-color: crimson;
-}
+
 /* Header section */
 #header {
 	position: fixed;
@@ -88,7 +85,7 @@ img {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: white;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -191,7 +188,7 @@ img {
 
 /* hero section */
 #hero{
-    background-image: url(./images/hero-bg.png);
+    background-image: url(./images/alex-kulikov-BrunIOLQMfQ-unsplash.png);
     background-size: cover;
     background-position: top center;
     position:relative;
@@ -250,7 +247,7 @@ img {
     color:black;
     margin-bottom: 10px;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: .4rem;
     text-align: center;
 }
 #services .section-title span{
@@ -259,7 +256,7 @@ img {
 
 
 #services .service-item{
-    flex-basis: 80%;
+    flex-basis: 90%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -268,7 +265,7 @@ img {
     border-radius: 10px;
     background-image: url(./images/img-1.png);
     background-size: cover;
-    margin:10px 5%;
+    margin:20px 5%;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -285,7 +282,7 @@ img {
     z-index: -1;
 }
 #services .service-item h2{
-    font-size: 2rem;
+    font-size: 4rem;
     color: white;
     margin-bottom: 10px;
     text-transform: uppercase;
