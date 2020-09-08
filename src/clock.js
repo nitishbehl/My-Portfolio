@@ -15,6 +15,7 @@ let digitalClock = () => {
     document.getElementById("seconds").innerHTML = seconds;
     document.getElementById("amorpm").innerHTML = amorpm;
 
+
     setTimeout(digitalClock, 500);
 
 } 
